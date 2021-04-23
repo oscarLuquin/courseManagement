@@ -1,0 +1,47 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>DeleteCourseServlet</servlet-name>
+  	<display-name>DeleteCourseServlet</display-name>
+  	<description>deleteCourseServlet</description>
+  	<servlet-class>com.oscarMiniProject.web.DeleteCourseServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>DeleteCourseServlet</servlet-name>
+  	<url-pattern>/deleteCourse</url-pattern>
+  </servlet-mapping>
+  <!--  <servlet>
+  	<servlet-name>GetCourseController</servlet-name>
+  	<display-name>GetCourseController</display-name>
+  	<description></description>
+  	<servlet-class>com.oscarMiniProject.web.GetCourseController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddCourseServlet</servlet-name>
+  	<display-name>AddCourseServlet</display-name>
+  	<description>servlet to add courses</description>
+  	<servlet-class>com.oscarMiniProject.web.AddCourseServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ModifyCourseServlet</servlet-name>
+  	<display-name>ModifyCourseServlet</display-name>
+  	<description>servlet to modify courses</description>
+  	<servlet-class>com.oscarMiniProject.web.ModifyCourseServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>GetCourseController</servlet-name>
+  	<url-pattern>/getCourse</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddCourseServlet</servlet-name>
+  	<url-pattern>/addCourse</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ModifyCourseServlet</servlet-name>
+  	<url-pattern>/modCourse</url-pattern>
+  </servlet-mapping>-->
+</web-app>
